@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "a92d6d97-69e7-4303-b3d8-c18ffec6c78f",
+		"name": "examenDI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22794309"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/Estudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Estudiante",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Estudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/Profesor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Profesor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Profesor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/Director",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/Director",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Director"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
